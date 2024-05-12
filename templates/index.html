@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О кафедре</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static',filename='/img/1.ico') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='/styles/about.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static',filename='/img/2.png') }}" alt="Логотип">
+        </div>
+        <div id="site-name">
+            <h1>Кафедра "Реклама и связи с общественностью"</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">О кафедре</a>
+                </li>
+                <li><a href="#">Возможности</a>
+                    <ul>
+                        <li><a href="#">Стажировки</a></li>
+                        <li><a href="#">Карьерные перспективы</a></li>
+                        <li><a href="#">Выпускники</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Абитуриенту</a>
+                    <ul>
+                        <li><a href="#">Как подавать заявку</a></li>
+                        <li><a href="#">Направления подготовки</a></li>
+                        <li><a href="#">Стипендия</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Деятельность кафедры</a>
+                    <ul>
+                        <li><a href="#">Учебно-методическая работа</a></li>
+                        <li><a href="#">Научно-исследовательская деятельность</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Деятельность студентов</a>
+                    <ul>
+                        <li><a href="#">Научно-исследовательская работа студентов</a></li>
+                        <li><a href="#">Проект PROБлеск</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div #id="main-text">
+        <div class="history">
+            <h2>История</h2>
+            <p>Текст о истории кафедры...</p>
+        </div>
+    
+        <div class="structure">
+            <h2>Структура кафедры</h2>
+            <p>Текст о структуре кафедры...</p>
+        </div>
+    </div>
+</body>
+</html>

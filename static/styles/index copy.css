@@ -1,0 +1,100 @@
+.header {
+	position: fixed;
+	background-color: #ffa500;
+	border: 6px solid black;
+	text-shadow: 2px 2px 2px black;
+	width: 98.5%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	z-index: 1;
+}
+
+.head-container {
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	position: relative;
+	width: 300px;
+	height: 742px;
+    padding-top: 115px;
+}
+
+h1, h2 {
+	color: whitesmoke;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.image-container {
+	padding: 15px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-1, .icon-2 {
+	width: 250px;
+	height: 450px;
+    margin-top: 115px;
+    border: 6px solid black;
+}
+
+.mainText {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.brief, .bio, .legacy {
+	background-color: #ffa500;
+	border: 6px solid black;
+	max-width: 30%;
+}
+
+.sectionText, h2 {
+	text-shadow: 2px 2px 2px black;
+	text-align: justify;
+	color: whitesmoke;
+	padding: 10px;
+}
+
+.links h2 {
+	background-color: #ffa500;
+	border: 6px solid black;
+	margin-top: 15px;
+}
+
+.links ul {
+	border: 6px solid black;
+	margin-top: 15px;
+	padding: 22px;
+	width: 95%;
+}
+
+.links-container {
+	display: flex;
+	justify-content: center;
+}
+
+.links a {
+	color: black;
+}
+
+.footer {
+	background-color: #ffa500;
+	border: 6px solid black;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.footer p {
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
+}

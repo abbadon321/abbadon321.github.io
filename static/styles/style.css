@@ -1,0 +1,170 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004AAD;
+    color: #fff;
+	border: 5pt solid #000;
+    border-radius: 10px; 
+}
+
+#site-name {
+	margin-left: 20px;
+}
+
+h1 {
+    -webkit-text-stroke: 0.5px black; /* width and color */
+    font-family: sans; color: fff;
+}
+
+.logo img {
+    height: 150px;
+	border-radius: 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #00266d;
+    z-index: 1;
+	border-radius: 10%;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul li ul li a:hover {
+    background-color: #002E73;
+	border-radius: 20%;
+}
+
+.history, .structure, .contacts {
+    padding: 20px;
+    background-color: #004AAD;
+    margin: 20px;
+	border: 3pt solid #000;
+    border-radius: 10px;
+}
+
+.history, .structure p {
+    color: whitesmoke;
+    font-size: 1em;
+    word-wrap: break-word;
+}
+
+.history, .structure, .contacts h1 {
+    color: #fff;
+}
+
+.contacts li, a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contacts a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: rgb(255, 196, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.contacts a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.image-and-staff {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px; /* Максимальная ширина контейнера */
+}
+
+.structure {
+    flex: 1; /* Растягиваем на всю доступную ширину */
+    margin-right: 20px; /* Отступ справа */
+}
+
+.image-container {
+    flex: 1; /* Растягиваем на всю доступную ширину */
+    max-width: 300px; /* Максимальная ширина изображения */
+    max-height: 300px; /* Максимальная высота изображения */
+    border: 5px solid #000; /* Рамка */
+    border-radius: 10px; /* Округление углов */
+    overflow: hidden; /* Скрытие выходящих за рамку частей изображения */
+    text-align: center; /* Центрирование содержимого по горизонтали */
+    background-color: #004AAD;
+    padding: 5px;
+}
+
+#main-image {
+    max-width: 40%; /* Изображение не должно превышать ширину блока */
+    max-height: 50%; /* Изображение не должно превышать высоту блока */
+    display: inline-block; /* Установка inline-block для корректного центрирования */
+    vertical-align: middle; /* Центрирование изображения по вертикали */
+    border-radius: 5px; /* Округление углов */
+    border: 2px solid #000; /* Рамка */
+}
+
+figcaption {
+    color: #fff;
+}
+
